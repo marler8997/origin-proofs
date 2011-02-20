@@ -1,3 +1,6 @@
+
+Exploration of Origins
+
 Definitions
 
 If a word O is defined, then any rule/definition that contains O is replaceable with the definition of O.

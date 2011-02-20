@@ -3,7 +3,7 @@ Exploration of Origins
 
 Definitions
 
-If a word O is defined, then any rule/definition that contains O is replaceable with the definition of O.
+If a word O is defined, the word O is replaceable with the definition of O.
 
 Note: iff = "if and only if"
 
@@ -31,25 +31,25 @@ Note: Many words can have multiple definitions, one of which could be an action 
 
 word choice (is a thing)
 {
-Definition: 
-   1. The ability to select/choose/pick a thing over another thing.
-   2. To have one or more options/alternatives.
-Aliases:
-   1. O has "choice" iff O "can choose"
+   Definition: 
+      1. The ability to select/choose/pick a thing over another thing.
+      2. To have one or more options/alternatives.
+   Aliases:
+      1. O has "choice" iff O "can choose"
 }
 
  
 word creator (is a thing)
 {
-   Definition: let O and P be things. O is "creator" of P iff O caused P to exist.
+   Definition: Let O and P be things. O is "creator" of P iff O caused P to exist.
 }
 word creation (is a thing)
 {
-   Definition: let O and P be things. P is a "creation" of O iff O is "creator" of P.
+   Definition: Let O and P be things. P is a "creation" of O iff O is "creator" of P.
 }
 word created (is an action)
 {
-   Definition: let O and P be things. O "created" P if and only if O is "creator" of P. 
+   Definition: Let O and P be things. O "created" P if and only if O is "creator" of P. 
 }
 
 The definition of create is pretty straightforward but needs some clarification.  The question is, is the definition transitive?  In other words, if A creates B and B creates C then did A create C? Using the definition in different cases seems to produce opposite conclusions.  For example, if a man creates a windmill, and that windmill creates power for a town, then it seems intuitive to say that the man created power for the town.  On the other hand, if a man creates a child and that child creates a work of art, then it doesn't seem intuitive to say that the man created that work of art.  

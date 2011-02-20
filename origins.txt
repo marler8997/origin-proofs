@@ -1,0 +1,78 @@
+Definitions
+
+If a word O is defined, then any rule/definition that contains O is replaceable with the definition of O.
+
+Note: iff = "if and only if"
+
+word thing
+{
+   Definition: undefined
+   Rule: O is a "thing" iff a thing can "have O" and/or "be O"
+}
+
+word action
+{
+   Definition: undefined
+   Rule: O is an "action" iff a thing "can O"
+}
+
+Need to setup a grammar: example <stmt> ==> <thing> <action> | <stmt> "in" <thing>
+
+
+Note: Things are not Actions, and Actions are not Things.
+Examples:
+   1. Things: dog,sickness,happiness
+   2. Actions: ponder,speak
+
+Note: Many words can have multiple definitions, one of which could be an action and one of which could be a thing, i.e. the word run could be the action of running, "I run", or could be a certain instance of running "My run was good".  Furthermore, many words, such as run, do not have the same definition for all things because they have different definitions for different types of things.  The definition of run for a man is different than the definition of run for a computer.
+
+word choice (is a thing)
+{
+Definition: 
+   1. The ability to select/choose/pick a thing over another thing.
+   2. To have one or more options/alternatives.
+Aliases:
+   1. O has "choice" iff O "can choose"
+}
+
+ 
+word creator (is a thing)
+{
+   Definition: let O and P be things. O is "creator" of P iff O caused P to exist.
+}
+word creation (is a thing)
+{
+   Definition: let O and P be things. P is a "creation" of O iff O is "creator" of P.
+}
+word created (is an action)
+{
+   Definition: let O and P be things. O "created" P if and only if O is "creator" of P. 
+}
+
+The definition of create is pretty straightforward but needs some clarification.  The question is, is the definition transitive?  In other words, if A creates B and B creates C then did A create C? Using the definition in different cases seems to produce opposite conclusions.  For example, if a man creates a windmill, and that windmill creates power for a town, then it seems intuitive to say that the man created power for the town.  On the other hand, if a man creates a child and that child creates a work of art, then it doesn't seem intuitive to say that the man created that work of art.  
+The difference seems to be that if O creates P, and P can choose whether or not to create Q, then O did not create Q.  However, if P could not choose to create Q, then O must have created Q. 
+
+Formal Syntax:
+O is creator of P.
+P is creator of Q.
+If P had choice to create Q then O did not create Q, else O did create Q.
+
+Note: Does everything have a creator? Unknown. To prove that everything has a creator, it would need to be proven that a "thing" can not exist without another "thing" causing it to.
+
+word Universe (is a thing)
+{
+   Definition: The collection of all things that exist in and around the earth.
+}
+
+Note: I added "in and around the earth" to imply that it's possible there are multiple universes that may not be considered a part of our universe ("our" universe being the one in which the earth exists).
+
+word God (is a thing)
+{
+   Definition: Creator of the Universe
+}
+
+Note: Creator is a thing, which may represent one or more things.  Therefore, the statement that there is more than one God does not contradict this definition. 
+
+
+What is God?
+Using the definition of "creator" and "God" we can redefine God as "the thing that caused the universe to exist".  This definition is very general and doesn't tell us much about God, in fact, it doesn't even tell us if God exists.  However, this does tell us that God exists if and only if a "thing" caused the universe to come into existence.  
